@@ -1,1 +1,25 @@
 /* your code */
+table{
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: small;
+    margin: auto;
+}
+
+thead{
+    background-color: #215a8e;
+    text-align: left;
+    
+}
+
+tbody{
+    color: black;
+}
+
+tbody tr:nth-child(2n){
+    background-color: #dddddd;
+}
+td , th{
+    padding: 1rem;
+}
